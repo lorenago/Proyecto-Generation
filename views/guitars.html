@@ -1,0 +1,15 @@
+<div class="viewer">
+	<div id="my-menus">
+		<header header-section-directive id="menuSection">
+		</header>
+	</div>
+	<a href="/"><img class="logoSection" src="./data/img/nimboTrans.png"></a>
+	<div class="columns is-multiline" id="guitShow">
+		<div class="column is-one-quarter textGuitar" ng-repeat="guitar in guitars">
+			<a ng-class="{active: $route.current.activetab == '/guitars/{{guitar.id}}'}" ng-href="/guitars/{{guitar.id}}">
+				<img ng-src={{guitar.image}}>
+			    <p>{{guitar.description}}</p>
+			</a>
+		</div>
+	</div>
+</div>

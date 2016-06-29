@@ -1,0 +1,455 @@
+[{
+	"id": 1,
+	"name": "venson",
+	"model": "Venson",
+	"description": "Nuestra primera guitarra restaurada ha sido una Venson modelo strato, de la cual desconocemos el año de fabricación. El estado en el que se encontraba nos obligó a hacerle una restauración a fondo, aunque nos permitió conservar los elementos originales de la mayoría de las partes.",
+	"specifications": [{
+		"TopWood": ""
+	}, {
+		"BackWood": "Alder tree"
+	}, {
+		"NumberOfFrets": "22"
+	}, {
+		"ScaleLength": "25"
+	}, {
+		"NeckWood": "Maple"
+	}, {
+		"FretboardWood": "Rosewood"
+	}, {
+		"FretboardInlays": "Dots"
+	}, {
+		"Bridge": "Venson strato original"
+	}, {
+		"Tuners": "Venson original"
+	}, {
+		"HardwareType": "Black"
+	}, {
+		"TreblePickup": "Venson original"
+	}, {
+		"BassPickup": "Venson original"
+	}, {
+		"Controls": "Volume and Tone Control with 5-Way Switch"
+	}, {
+		"Option": "Guitar Strap, bag and cable"
+	}],
+	"color": "Red",
+	"image": "./data/img/guitars/venson1.jpg",
+	"process": [{
+		"cuerpo": [{
+			"description": "El cuerpo presentaba varios arañazos superficiales y alguno de bastante profundidad. Como en términos generales, la pintura se conserva en un buen estado, se decidió utilizar pulimento para eliminar esos arañazos superficiales.",
+			"photos": "./data/img/venson/cuerpo1.jpg"
+		}, {
+			"description": "En segundo lugar, se procedió al apantallado de la guitarra para evitar interferencias en la electrónica, y ganar en calidad de sonido. Para ello utilizamos aluminio en adhesivo, cubriéndo cada cavidad del instrumento, así como ambas tapas para asegurar la jaula de Faraday.",
+			"photos": "./data/img/venson/cuerpo2-3.jpg"
+		}, {
+			"description": "Posteriormente se colocó una tapa trasera Fender acorde a la estética de la guitarra, ya que carecía de ella. Además, se sustituyó la tornillería del golpeador delantero.",
+			"photos": "./data/img/venson/cuerpo4.jpg"
+		}]
+	}, {
+		"puente": [{
+			"description": "El puente estaba bastante oxidado y sucio, por lo que se desmontó por completo para poderlo limpiar con ayuda de disolvente y quitagrasas.",
+			"photos": "./data/img/venson/puente1-2.jpg"
+		},{
+			"description": "A continuación, se añadió un muelle de tensión extra, para asegurar una buena tensión y una afinación estable. Y para finalizar, se le puso cuerdas nuevas, del calibre 9-42 y se le hizo una puesta a punto, incluyendo ajuste del alma y quitaje.",
+			"photos": "./data/img/venson/puente3.jpg"
+		}]
+	}, {
+		"electronica": [{
+			"description": "La electrónica era sin duda una de las partes menos cuidadas de la guitarra. Nos encontramos con unos potenciómetros oxidados, así como algunos cables mal soldados y descolocados. Por ello, desmontamos la circuitería, desoxidamos los potenciómetros y soldamos (y desoldamos) todos aquellos cables que fueron necesarios para el correcto funcionamiento de los circuitos.",
+			"photos": "./data/img/venson/electronica1.jpg"
+		}, {
+			"description": "Por último, montamos toda la circuitería en el cuerpo de la guitarra y comprobamos que funcionama correctamente.",
+			"photos": "./data/img/venson/electronica2.jpg"
+		}]
+	}, {
+		"mastil": [{
+			"description": "El mástil estaba bastante sucio y arañado, también nos encontramos que tenía la cejuela partida, por lo que hubo que sustituirla por una nueva de grafito, en este caso, de color negro para preservar la nueva estética.",
+			"photos": "./data/img/venson/mastil1-3-4.jpg"
+		}, {
+			"description": "A continuación se limpió y se pulió toda la superficie del diapasón y posteriormente se rehidrató.",
+			"photos": "./data/img/venson/mastil5-6-7.jpg"
+		}]
+	}, {
+		"pala": [{
+			"description": "La pala era uno de los puntos mejor conservados de la guitarra. Sin embargo, aprovechamos para hacer cambios estéticos e incluir nuestra firma.",
+			"photos": "./data/img/venson/pala.jpg"
+		}]
+	}, {
+		"general": [{
+			"description": "Los ajustes más importantes que han sido necesarios son los relativos a la parte electrónica y en el mástil. Sin embargo, hemos intentado hacer mejoras en cada una de las partes, sin aumentar en exceso el coste de la restauración.",
+			"photos": "./data/img/venson/descripcion1.jpg"
+		}, {
+			"description": "Después de varios ajustes y reparaciones, el resultado ha sido este.",
+			"photos": "./data/img/venson/descripcion2.jpg"
+		}]
+	}],
+
+	"map": "./data/img/map/Venson.png",
+	"coords": [{
+		"cuerpo": "11,79,17,47,30,24,40,10,61,6,80,6,98,10,125,20,159,34,164,35,184,35,223,23,242,19,259,19,276,25,285,32,287,38,291,41,288,47,284,45,276,46,259,48,248,53,242,60,238,69,238,77,240,82,198,82,198,78,77,78,72,81,72,127,75,130,93,130,93,126,105,126,105,125,198,125,198,120,215,121,210,130,210,147,219,148,231,162,244,167,246,171,246,175,242,180,232,185,227,186,211,186,191,180,168,171,154,171,121,186,92,196,76,199,60,199,45,195,31,186,19,170,11,147,11,138"
+	}, {
+		"puente": "73,82,76,79,104,79,104,125,92,125,92,129,76,129,76,126"
+	}, {
+		"electronica": "105,79,197,79,197,124,105,124"
+	}, {
+		"mastil": "207,85,483,91,483,117,208,120,204,116,204,88"
+	}, {
+		"pala": "484,91,488,91,498,83,503,83,509,85,513,81,510,78,512,73,516,73,532,78,546,83,560,87,576,92,590,96,594,99,592,104,589,104,588,109,595,117,596,127,589,136,583,138,574,137,567,132,564,125,554,125,519,133,514,133,505,122,499,118,484,117"
+	}]
+
+}, {
+	"id": 2,
+	"name": "kaman",
+	"model": "Kaman GTX-33",
+	"description": "La Kaman GTX-33 es una guitarra de origen Koreano, de finales de los 80. Tiene un puente flotante Takeuchi, con licencia de Floyd Rose. Recibimos esta guitarra en un estado bastante deteriorado, siendo necesario sustituir varias de sus piezas originales, por otras importadas de Rusia.",
+	"specifications": [{
+		"TopWood": ""
+	}, {
+		"BackWood": "Basswood"
+	}, {
+		"NumberOfFrets": "24"
+	}, {
+		"ScaleLength": "25"
+	}, {
+		"NeckWood": "Maple"
+	}, {
+		"FretboardWood": "Rosewood"
+	}, {
+		"FretboardInlays": "Shark-fin"
+	}, {
+		"Bridge": "Takeuchi TRS-101, Floyd rose Licensed"
+	}, {
+		"Tuners": "Ping PT 119"
+	}, {
+		"HardwareType": "Black"
+	}, {
+		"TreblePickup": "Kaman original"
+	}, {
+		"BassPickup": "Kaman original"
+	}, {
+		"Controls": "Volume and Tone Control with 5-Way Switch"
+	}, {
+		"Option": "Guitar Strap and cable"
+	}],
+	"color": "Azul y rosa",
+	"image": "./data/img/guitars/kaman1.jpg",
+	"process": [{
+		"cuerpo": [{
+			"description": "Reparación de golpes, pintar zonas reparadas.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"puente": [{
+			"description": "Limpieza, desoxidación de todo el puente, sustitución de piezas exportadas desde Rusia. Sustitución de cuerdas, quintaje de la guitarra, y puesta a punto.",
+			"photos": "./data/img/logo.png"
+		},{
+			"description": "Limpieza, desoxidación de todo el puente, sustitución de piezas exportadas desde Rusia. Sustitución de cuerdas, quintaje de la guitarra, y puesta a punto.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"electronica": [{
+			"description": "Desmontaje de toda la electrónica, reparación de potenciómetros oxidados, soldadura correcta de circuitería, montaje y comprobación.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"mastil": [{
+			"description": "El mástil presentaba surcos consecuencia de un gran uso.",
+			"photos": "./data/img/logo.png"
+		}, {
+			"description": "En primer lugar, se limpió y se pulió toda la superficie del diapasón. Posteriormente, se rehidrató y se eliminaron los surcos en la medida de lo posible.  ",
+			"photos": "./data/img/logo.png"
+		},{
+			"description": "Desmontaje, limpieza, pulir y abrillantar trastes, rehidratación del diapasón, y barnizado del mástil.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"pala": [{
+			"description": "Desmontar clavijeros, lijar y reparar pala, pintar pala dejando la firma de Nimbo. Reparación de un clavijero.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"general": [{
+			"description": "Breve descripción del estado de la guitarra al inicio y reparaciones necesarias.",
+			"photos": "./data/img/logo.png"
+		}]
+	}],
+
+	"map": "./data/img/map/kaman.png",
+	"coords": [{
+		"cuerpo": "11,79,17,47,30,24,40,10,61,6,80,6,98,10,125,20,159,34,164,35,184,35,223,23,242,19,259,19,276,25,285,32,287,38,291,41,288,47,284,45,276,46,259,48,248,53,242,60,238,69,238,77,240,82,243,85,229,85,229,84,199,84,198,78,101,78,101,75,99,73,79,73,77,75,77,80,64,80,62,82,57,82,57,121,76,121,76,128,101,128,101,125,198,125,198,120,215,121,210,130,210,147,219,148,231,162,244,167,246,171,246,175,242,180,232,185,227,186,211,186,191,180,168,171,154,171,121,186,92,196,76,199,60,199,45,195,31,186,19,170,11,147,11,138"
+	}, {
+		"puente": "58,83,63,83,65,81,78,81,78,76,80,74,98,74,100,76,100,127,77,127,77,120,58,120"
+	}, {
+		"electronica": "103,79,197,79,197,124,103,124"
+	}, {
+		"mastil": "207,85,483,91,483,117,208,120,204,116,204,88"
+	}, {
+		"pala": "485,85,496,83,502,77,544,77,595,61,598,61,597,81,597,94,522,140,515,129,504,116,498,113,485,112"
+	}]
+}, {
+	"id": 3,
+	"name": "prs",
+	"model": "PRS 'Floyd' Custom 24",
+	"description": "La guitarra eléctrica PRS Core 'Floyd' Custom 24 cuenta con un puente Floyd Rose original y pastillas PRS  (metal). Está disponible en seis acabados con tapa de arce (Aquableux, Blood Orange, Faded Whale Blue, Leprechaun Tooth, Obsidian y Violet) y tiene pala de palo santo con la firma de Paul Reed Smith.",
+	"specifications": [{
+		"TopWood": "Carved figured maple"
+	}, {
+		"BackWood": "Mahogany"
+	}, {
+		"NumberOfFrets": "24"
+	}, {
+		"ScaleLength": "25"
+	}, {
+		"NeckWood": "Rock Maple"
+	}, {
+		"FretboardWood": "Ebony"
+	}, {
+		"FretboardInlays": "Birds"
+	}, {
+		"Bridge": "Floyd Rose 'Original' Tremolo & Locking Nut"
+	}, {
+		"Tuners": "PRS Phase III Locking Tuners"
+	}, {
+		"Hardware Type": "Nickel"
+	}, {
+		"TreblePickup": "PRS Uncovered Treble"
+	}, {
+		"BassPickup": "PRS Uncovered Bass"
+	}, {
+		"Controls": "Volume and Tone Control with 5-Way Blade Switch"
+	}, {
+		"Option": "10-Top Flame"
+	}],
+	"color": "",
+	"image": "./data/img/guitars/prs1.jpg",
+	"process": [{
+		"cuerpo": [{
+			"description": "Lorem ipsum Elit occaecat sunt aute ea id culpa fugiat cillum culpa elit consectetur labore.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"puente": [{
+			"description": "Lorem ipsum Culpa dolore qui aliquip deserunt nostrud nulla in do aliquip ut veniam id ea Excepteur anim ut est fugiat laboris voluptate qui elit Duis ex nostrud nostrud in laborum in laboris ut Duis in eu laboris Excepteur eiusmod Ut occaecat deserunt consequat amet dolor sunt adipisicing sint fugiat quis officia mollit id sint commodo sit reprehenderit laboris amet minim cillum cillum aliqua mollit occaecat id laboris sint eiusmod do cillum consectetur nostrud nisi et ut deserunt nisi ex consectetur cupidatat ea enim proident occaecat non deserunt veniam in voluptate nostrud ut cupidatat labore aute quis elit sed labore deserunt minim id pariatur est sed sunt laboris sunt sunt consequat cupidatat labore nulla do aute dolor et Excepteur minim adipisicing ex ad in pariatur aute dolore cupidatat pariatur minim nisi dolor consequat adipisicing labore esse commodo dolore aliqua veniam sit deserunt do enim Duis in commodo.",
+			"photos": "./data/img/logo.png"
+		},{
+			"description": "Lorem ipsum Aliquip irure voluptate aliquip ut ea do mollit ullamco anim aliqua ex et sed.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"electronica": [{
+			"description": "Lorem ipsum Dolore nostrud officia voluptate reprehenderit.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"mastil": [{
+			"description": "Lorem ipsum Laboris esse exercitation ut laboris occaecat.",
+			"photos": "./data/img/logo.png"
+		}, {
+			"description": "Lorem ipsum Anim pariatur veniam veniam nisi sit ut officia Excepteur amet nulla exercitation adipisicing sint elit non ea consequat Ut sit.",
+			"photos": "./data/img/logo.png"
+		},{
+			"description": "Lorem ipsum Quis dolor minim labore est sint cillum sunt magna eiusmod velit eu.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"pala": [{
+			"description": "Lorem ipsum Cupidatat quis eu cillum exercitation mollit irure culpa ad sed in enim qui esse aute do aliqua minim Ut minim adipisicing proident dolor aliquip sunt eu.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"general": [{
+			"description": "Breve descripción del estado de la guitarra al inicio y reparaciones necesarias.",
+			"photos": "./data/img/logo.png"
+		}]
+	}],
+	"map": "./data/img/map/prs.png",
+	"coords": [{
+		"cuerpo": "7,100,10,94,13,68,18,50,26,34,39,19,54,9,67,4,78,2,91,2,112,8,128,16,155,33,178,42,193,42,238,26,255,26,266,30,274,40,273,46,269,49,255,50,238,59,232,67,226,82,208,82,208,72,101,72,101,79,79,79,79,123,101,123,101,131,208,131,208,120,222,120,222,139,240,159,241,161,241,166,233,174,221,175,209,171,192,163,184,160,173,160,156,167,139,178,121,189,95,197,89,198,76,198,56,193,51,191,39,182,28,168,20,153,14,136,12,123,10,106"
+	}, {
+		"puente": "80,80,102,80,102,73,126,73,126,130,102,130,102,122,80,122"
+	},{
+		"electronica": "127,73,207,73,207,130,127,130"
+	}, {
+		"mastil": "208,83,507,89,507,115,208,119"
+	}, {
+		"pala": "508,89,515,85,520,75,525,68,534,68,551,71,571,75,576,77,577,83,571,87,591,87,582,101,582,113,583,118,572,118,576,122,576,126,571,130,550,132,530,136,523,134,519,124,514,120,508,115"
+	}]
+},{
+	"id": 4,
+	"name": "Esp",
+	"model": "EXP",
+	"description": "El diseño de las ESP EXP es muy similar al modelo Explorer de Gibson. Algunas diferencias obvias entre ambas guitarras son el clavijero y el material con el que está hechas. Gibson dejó de fabricar su modelo Explorer (conocida entonces como Futura) en 1959. Años más tarde, algunas compañías empezaron a producir copias de la Explorer, entre ellas ESP. En 1975, Gibson relanzó otra vez su modelo, ante el éxito que cosechaban estas otras compañías.",
+	"specifications": [{
+		"TopWood": ""
+	}, {
+		"BackWood": "Basswood"
+	}, {
+		"NumberOfFrets": "24"
+	}, {
+		"ScaleLength": "25"
+	}, {
+		"NeckWood": "Maple"
+	}, {
+		"FretboardWood": "Rosewood"
+	}, {
+		"FretboardInlays": "Shark-fin"
+	}, {
+		"Bridge": "Takeuchi TRS-101, Floyd rose Licensed"
+	}, {
+		"Tuners": "Ping PT 119"
+	}, {
+		"HardwareType": "Black"
+	}, {
+		"TreblePickup": "Kaman original"
+	}, {
+		"BassPickup": "Kaman original"
+	}, {
+		"Controls": "Volume and Tone Control with 5-Way Switch"
+	}, {
+		"Option": "Guitar Strap and cable"
+	}],
+	"color": "Blanca",
+	"image": "./data/img/guitars/explorer1.jpg",
+	"process": [{
+		"cuerpo": [{
+			"description": "Lorem ipsum Elit occaecat sunt aute ea id culpa fugiat cillum culpa elit consectetur labore.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"puente": [{
+			"description": "Lorem ipsum Culpa dolore qui aliquip deserunt nostrud nulla in do aliquip ut veniam id ea Excepteur anim ut est fugiat laboris voluptate qui elit Duis ex nostrud nostrud in laborum in laboris ut Duis in eu laboris Excepteur eiusmod Ut occaecat deserunt consequat amet dolor sunt adipisicing sint fugiat quis officia mollit id sint commodo sit reprehenderit laboris amet minim cillum cillum aliqua mollit occaecat id laboris sint eiusmod do cillum consectetur nostrud nisi et ut deserunt nisi ex consectetur cupidatat ea enim proident occaecat non deserunt veniam in voluptate nostrud ut cupidatat labore aute quis elit sed labore deserunt minim id pariatur est sed sunt laboris sunt sunt consequat cupidatat labore nulla do aute dolor et Excepteur minim adipisicing ex ad in pariatur aute dolore cupidatat pariatur minim nisi dolor consequat adipisicing labore esse commodo dolore aliqua veniam sit deserunt do enim Duis in commodo.",
+			"photos": "./data/img/logo.png"
+		},{
+			"description": "Lorem ipsum Aliquip irure voluptate aliquip ut ea do mollit ullamco anim aliqua ex et sed.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"electronica": [{
+			"description": "Lorem ipsum Dolore nostrud officia voluptate reprehenderit.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"mastil": [{
+			"description": "Lorem ipsum Laboris esse exercitation ut laboris occaecat.",
+			"photos": "./data/img/logo.png"
+		}, {
+			"description": "Lorem ipsum Anim pariatur veniam veniam nisi sit ut officia Excepteur amet nulla exercitation adipisicing sint elit non ea consequat Ut sit.",
+			"photos": "./data/img/logo.png"
+		},{
+			"description": "Lorem ipsum Quis dolor minim labore est sint cillum sunt magna eiusmod velit eu.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"pala": [{
+			"description": "Lorem ipsum Cupidatat quis eu cillum exercitation mollit irure culpa ad sed in enim qui esse aute do aliqua minim Ut minim adipisicing proident dolor aliquip sunt eu.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"general": [{
+			"description": "Breve descripción del estado de la guitarra al inicio y reparaciones necesarias.",
+			"photos": "./data/img/logo.png"
+		}]
+	}],
+
+	"map": "./data/img/map/xplorer.png",
+	"coords": [{
+		"cuerpo": "7,100,10,94,13,68,18,50,26,34,39,19,54,9,67,4,78,2,91,2,112,8,128,16,155,33,178,42,193,42,238,26,255,26,266,30,274,40,273,46,269,49,255,50,238,59,232,67,226,82,208,82,208,72,101,72,101,79,79,79,79,123,101,123,101,131,208,131,208,120,222,120,222,139,240,159,241,161,241,166,233,174,221,175,209,171,192,163,184,160,173,160,156,167,139,178,121,189,95,197,89,198,76,198,56,193,51,191,39,182,28,168,20,153,14,136,12,123,10,106"
+	}, {
+		"puente": "80,80,102,80,102,73,126,73,126,130,102,130,102,122,80,122"
+	},{
+		"electronica": "127,73,207,73,207,130,127,130"
+	}, {
+		"mastil": "208,83,507,89,507,115,208,119"
+	}, {
+		"pala": "508,89,515,85,520,75,525,68,534,68,551,71,571,75,576,77,577,83,571,87,591,87,582,101,582,113,583,118,572,118,576,122,576,126,571,130,550,132,530,136,523,134,519,124,514,120,508,115"
+	}]
+},{
+	"id": 5,
+	"name": "Gibson",
+	"model": "Les Paul",
+	"description": "La Gibson Diablo es una guitarra eléctrica basada en el famoso modelo SG. Se trata de una guitarra de cuerpo macizo, sin caja de resonancia. generalmente de caoba y con una tapa convexa de arce, cuyo acabado en color plateado puede hacer las delicias de más de un guitarrista y aficionado. El mástil, encolado, lleva inserta un alma regulable y está rematado por un diapasón de 22 trastes, que suele ser de palo rosa.",
+	"specifications": [{
+		"TopWood": ""
+	}, {
+		"BackWood": "Basswood"
+	}, {
+		"NumberOfFrets": "22"
+	}, {
+		"ScaleLength": "25"
+	}, {
+		"NeckWood": "Maple"
+	}, {
+		"FretboardWood": "Rosewood"
+	}, {
+		"FretboardInlays": "Squares"
+	}, {
+		"Bridge": "Takeuchi TRS-101, Floyd rose Licensed"
+	}, {
+		"Tuners": "Ping PT 119"
+	}, {
+		"HardwareType": "Black"
+	}, {
+		"TreblePickup": "Kaman original"
+	}, {
+		"BassPickup": "Kaman original"
+	}, {
+		"Controls": "Volume and Tone Control with 5-Way Switch"
+	}, {
+		"Option": "Guitar Strap and cable"
+	}],
+	"color": "Plata",
+	"image": "./data/img/guitars/sg1.jpg",
+	"process": [{
+		"cuerpo": [{
+			"description": "Lorem ipsum Elit occaecat sunt aute ea id culpa fugiat cillum culpa elit consectetur labore.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"puente": [{
+			"description": "Lorem ipsum Culpa dolore qui aliquip deserunt nostrud nulla in do aliquip ut veniam id ea Excepteur anim ut est fugiat laboris voluptate qui elit Duis ex nostrud nostrud in laborum in laboris ut Duis in eu laboris Excepteur eiusmod Ut occaecat deserunt consequat amet dolor sunt adipisicing sint fugiat quis officia mollit id sint commodo sit reprehenderit laboris amet minim cillum cillum aliqua mollit occaecat id laboris sint eiusmod do cillum consectetur nostrud nisi et ut deserunt nisi ex consectetur cupidatat ea enim proident occaecat non deserunt veniam in voluptate nostrud ut cupidatat labore aute quis elit sed labore deserunt minim id pariatur est sed sunt laboris sunt sunt consequat cupidatat labore nulla do aute dolor et Excepteur minim adipisicing ex ad in pariatur aute dolore cupidatat pariatur minim nisi dolor consequat adipisicing labore esse commodo dolore aliqua veniam sit deserunt do enim Duis in commodo.",
+			"photos": "./data/img/logo.png"
+		},{
+			"description": "Lorem ipsum Aliquip irure voluptate aliquip ut ea do mollit ullamco anim aliqua ex et sed.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"electronica": [{
+			"description": "Lorem ipsum Dolore nostrud officia voluptate reprehenderit.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"mastil": [{
+			"description": "Lorem ipsum Laboris esse exercitation ut laboris occaecat.",
+			"photos": "./data/img/logo.png"
+		}, {
+			"description": "Lorem ipsum Anim pariatur veniam veniam nisi sit ut officia Excepteur amet nulla exercitation adipisicing sint elit non ea consequat Ut sit.",
+			"photos": "./data/img/logo.png"
+		},{
+			"description": "Lorem ipsum Quis dolor minim labore est sint cillum sunt magna eiusmod velit eu.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"pala": [{
+			"description": "Lorem ipsum Cupidatat quis eu cillum exercitation mollit irure culpa ad sed in enim qui esse aute do aliqua minim Ut minim adipisicing proident dolor aliquip sunt eu.",
+			"photos": "./data/img/logo.png"
+		}]
+	}, {
+		"general": [{
+			"description": "Breve descripción del estado de la guitarra al inicio y reparaciones necesarias.",
+			"photos": "./data/img/logo.png"
+		}]
+	}],
+
+	"map": "./data/img/map/diablo.png",
+	"coords": [{
+		"cuerpo": "7,100,10,94,13,68,18,50,26,34,39,19,54,9,67,4,78,2,91,2,112,8,128,16,155,33,178,42,193,42,238,26,255,26,266,30,274,40,273,46,269,49,255,50,238,59,232,67,226,82,208,82,208,72,101,72,101,79,79,79,79,123,101,123,101,131,208,131,208,120,222,120,222,139,240,159,241,161,241,166,233,174,221,175,209,171,192,163,184,160,173,160,156,167,139,178,121,189,95,197,89,198,76,198,56,193,51,191,39,182,28,168,20,153,14,136,12,123,10,106"
+	}, {
+		"puente": "80,80,102,80,102,73,126,73,126,130,102,130,102,122,80,122"
+	},{
+		"electronica": "127,73,207,73,207,130,127,130"
+	}, {
+		"mastil": "208,83,507,89,507,115,208,119"
+	}, {
+		"pala": "508,89,515,85,520,75,525,68,534,68,551,71,571,75,576,77,577,83,571,87,591,87,582,101,582,113,583,118,572,118,576,122,576,126,571,130,550,132,530,136,523,134,519,124,514,120,508,115"
+	}]
+}]
