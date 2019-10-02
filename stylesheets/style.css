@@ -7,7 +7,7 @@ body {
   background-size: 100%;
   background-color: #000000;
   color: #bdbdbd;
-  font-size: 16px;
+  font-size: 1em;
   font-family: "roboto", sans-serif;
   width: 100%;
   overflow: hidden; }
@@ -163,6 +163,7 @@ section #mainText {
   margin: 5% 7%; }
 
 .footer {
+  font-size: 0.8em;
   background-color: #000000;
   border-top: 2px solid #00cccc;
   color: #bdbdbd;
@@ -284,7 +285,23 @@ form {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  [class*="column"] {
+  .mainPage, [class*="column"] {
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+
+  .mainText {
+    margin: 1% !important;
+    padding: 0 !important; }
+
+  #colIzq {
+    display: none; }
+
+  #colDer {
+    display: none; }
+
+  #conCen {
+    margin: 0 auto;
     width: 100%; }
 
   .newsBackground {

@@ -7,7 +7,7 @@
 		</p>
 	</div>
 	<div class="columns is-mobile mainPage">
-		<div class="column is-2">
+		<div class="column is-2" id="colIzq">
 			<div ng-repeat="new in news | limitTo : 3">
 				<a class="newsBackground" ng-class={{new.class}} ng-href={{new.href}}>
 					<img ng-src={{new.foto}} />
@@ -18,7 +18,7 @@
 			    <option value="/" ng-repeat="new in news" ng-class={{new.class}} ng-href={{new.href}}>{{new.textResponsive}}</option> 
 			</select>  -->
 		</div>
-		<div class="column is-10">
+		<div class="column is-10" id="conCen">
 			<div class="mainText"> 
 				<div class="column" id="nosotros">
 					<p>	
@@ -38,6 +38,8 @@
 					</p>
 				</div>
 			</div>
+		</div>
+		<div class="column is-1" id="colDer">
 		</div>
 	</div>
 </div>

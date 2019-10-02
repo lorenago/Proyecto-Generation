@@ -3,18 +3,18 @@
 	"texto":"Lorem ipsum Eu elit dolore cillum Duis irure Duis elit do labore commodo officia sit minim eu nulla commodo tempor laborum dolor sunt Ut ad dolore sunt non do irure esse in tempor dolor velit anim incididunt proident fugiat. Lorem ipsum Cillum mollit ullamco id non nisi veniam dolor incididunt culpa dolor occaecat magna laborum deserunt velit do laborum ullamco magna proident dolor reprehenderit aute ad voluptate do Duis consequat enim adipisicing consectetur Excepteur in aliquip ad Excepteur Ut cupidatat dolore do irure enim ut nisi ut amet ex laboris id do officia occaecat quis irure exercitation ut elit fugiat qui amet cupidatat sit nisi et ut ea irure eu aliquip voluptate nulla reprehenderit nulla reprehenderit enim elit reprehenderit ut consequat Ut occaecat in enim commodo ut nisi nostrud eu aliquip minim ea in fugiat ex sunt irure sunt velit minim eiusmod consectetur in dolore Excepteur elit in Duis consequat consequat sunt in magna elit culpa fugiat irure nulla ex ut eiusmod nostrud dolore non dolore id dolor irure exercitation velit cupidatat minim ut elit esse proident velit adipisicing elit esse sed ullamco consequat aliquip esse dolore.",
 	"href": "/news",
 	"class": "{active: $route.current.activetab == '/news'}",
-	"foto": "./data/img/news/new1.jpg",
+	"foto": "./data/img/news/Noticia1.jpg",
 	"textResponsive": "New 1"
-}, {
+},{
 	"titulo": "Primera guitarra restaurada!",
-	"texto":" Descubre nuestra nueva guitarra tipo strato. Buena relación calidad-precio. Lorem ipsum Eu elit dolore cillum Duis irure Duis elit do labore commodo officia sit minim eu nulla commodo tempor laborum dolor sunt Ut ad dolore sunt non do irure esse in tempor dolor velit anim incididunt proident fugiat. Lorem ipsum Cillum mollit ullamco id non nisi veniam dolor incididunt culpa dolor occaecat magna laborum deserunt velit do laborum ullamco magna proident dolor reprehenderit aute ad voluptate do Duis consequat enim adipisicing consectetur Excepteur in aliquip ad Excepteur Ut cupidatat dolore do irure enim ut nisi ut amet ex laboris id do officia occaecat quis irure exercitation ut elit fugiat qui amet cupidatat sit nisi et ut ea irure eu aliquip voluptate nulla reprehenderit nulla reprehenderit enim elit reprehenderit ut consequat Ut occaecat in enim commodo ut nisi nostrud eu aliquip minim ea in fugiat ex sunt irure sunt velit minim eiusmod consectetur in dolore Excepteur elit in Dui.",
+	"texto":" Descubre nuestra nueva guitarra tipo strato. Buena relación calidad-precio.",
 	"href": "/guitars/1",
 	"class": "{active: $route.current.activetab == '/guitars'}",
-	"foto": "./data/img/news/new2.jpg",
+	"foto": "./data/img/news/Noticia2.jpg",
 	"textResponsive": "New 2"
 },{
-	"titulo": "Nueva guitarra al taller!",
-	"texto": "Empezamos la restauración de una guitarra de origen Koreano. Lorem ipsum Eu elit dolore cillum Duis irure Duis elit do labore commodo officia sit minim eu nulla commodo tempor laborum dolor sunt Ut ad dolore sunt non do irure esse in tempor dolor velit anim incididunt proident fugiat. Lorem ipsum Cillum mollit ullamco id non nisi veniam dolor incididunt culpa dolor occaecat magna laborum deserunt velit do laborum ullamco magna proident dolor reprehenderit aute ad voluptate do Duis consequat enim adipisicing consectetur Excepteur in aliquip ad Excepteur Ut cupidatat dolore do irure enim ut nisi ut amet ex laboris id do officia occaecat quis irure exercitation ut elit fugiat qui amet cupidatat sit nisi et ut ea irure eu aliquip voluptate nulla reprehenderit nulla reprehenderit enim elit reprehenderit ut consequat Ut occaecat in enim commodo ut nisi nostrud eu aliquip minim ea in fugiat ex sunt irure sunt velit minim eiusmod consectetur in dolore Excepteur elit in Duis consequat consequat sunt in magna elit culpa fugiat irure nulla ex ut eiusmod nostrud dolore non dolore id dolor irure.",
+	"titulo": "Orgullosos de nuestra segunda guitarra!",
+	"texto": "Os presentamos nuestra segunda guitarra restaurada. En esta ocación se trata de una guitarra de origen Koreano. ",
 	"href": "/guitars/2",
 	"class": "{active: $route.current.activetab == '/guitars'}",
 	"foto": "./data/img/news/new3.jpg",

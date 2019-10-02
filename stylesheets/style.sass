@@ -7,7 +7,7 @@ $family-primary: 'roboto'
 $blue: #00ffff
 
 body
-	background-image: url('./background/FondoLinea.png')
+	//background-image: url('./background/FondoLinea.png')
 	background-image: no repeat
 	background-attachment: fixed
 	background-image: center
@@ -15,7 +15,7 @@ body
 	background-size: 100%
 	background-color: $color2
 	color: $text
-	font-size: 16px
+	font-size: 1.0em
 	font-family: 'roboto', sans-serif
 	width: 100%
 	overflow: hidden
@@ -83,7 +83,7 @@ section
 			color: $text
 	.mainText
 		background-color: $blue
-		margin: 2% 10% 5% 4%
+		margin: 2% 0% 5% 4%;
 		background: rgba(0, 255, 255, 0.3)
 		p 
 			font-family: 'roboto'
@@ -185,6 +185,7 @@ section
 	// 	display: none		
 
 .footer 
+	font-size: 0.8em
 	background-color: $color2
 	border-top: 2px solid $select
 	color: $text
@@ -307,17 +308,32 @@ form
 	.butns 
 		margin: 30%
 
+@media only screen and (min-width: 769px)
+	body
+		background: url('./background/FondoLinea.png')
 
 @media only screen and (max-width: 768px)
-	/* For mobile phones: */
-	[class*="column"]
+	/* For mobile phones: */	
+	body
+		background: url('./background/FondoSLinea.png')
+		
+	.mainPage,  [class*="column"]
+		margin: 0
+		padding: 0
+		width: 100%
+	.mainText
+		margin: 1% !important
+		padding: 0 !important
+	#colIzq
+		display: none
+	#colDer
+		display: none
+	#conCen 
+		margin: 0 auto
 		width: 100%
 	.newsBackground
 		display: none
-	// #newsResponsive
-	// 	display: inline-block
 	#nimbo
 		img 
 			margin-top: 3%
-
-// https://daneden.github.io/animate.css/
+		// https://daneden.github.io/animate.css/
