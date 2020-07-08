@@ -8,8 +8,7 @@
     "server:dev": "cross-env NODE_ENV=development nodemon backend/index.js --ignore frontend",
     "start": "cross-env NODE_ENV=production node backend/index.js",
     "build": "cross-env NODE_ENV=production webpack",
-    "app:dev": "webpack-dev-server --open",
-    "postinstall": "npm run build"
+    "app:dev": "webpack-dev-server --open"
   },
   "keywords": [
     "Backend",
