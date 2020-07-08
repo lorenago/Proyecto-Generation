@@ -6,9 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server:dev": "cross-env NODE_ENV=development nodemon backend/index.js --ignore frontend",
-    "start": "cross-env NODE_ENV=production node backend/index.js",
-    "build": "cross-env NODE_ENV=production webpack",
-    "app:dev": "webpack-dev-server --open"
+    "start": "cross-env NODE_ENV=production node backend/index.js"
   },
   "keywords": [
     "Backend",
