@@ -1,0 +1,24 @@
+<nav class="nav header">
+  <div class="nav-pills">
+    <div class="nav" id="nimbo" alt="Nimbo letras">
+      <a href="/"><img src="./data/img/letrasNimbo.png" onclick='backTo()'></a>
+    </div>
+    <div class="nav-center" id="navBar">
+      <a class="nav-item" ng-class="{active: $route.current.activetab == '/'}" href="/">
+        INICIO
+      </a>
+      <a class="nav-item" ng-class="{active: $route.current.activetab == '/aboutUs'}" href="/aboutUs">
+        DÓNDE ESTAMOS
+      </a>
+      <a class="nav-item" ng-class="{active: $route.current.activetab == '/guitars'}" href="/guitars">
+        NUESTRAS GUITARRAS
+      </a>
+      <a class="nav-item" ng-class="{active: $route.current.activetab == '/news'}" href="/news">
+        NOTICIAS
+      </a>
+      <a class="nav-item" ng-class="{active: $route.current.activetab == '/contact'}" href="/contact">
+        CONTACTA
+      </a>
+    </div>
+</nav>
+

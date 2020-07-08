@@ -1,0 +1,73 @@
+<div class="viewer">
+	<div id="my-menus">
+		<header header-section-directive id="menuSection">
+		</header>
+	</div>
+	<a href="/"><img class="logoSection" src="./data/img/nimboTrans.png"></a>
+	<div class="amazingGuitars">
+		<div class="text textGuitar columns">
+			<p class="column is-9 mdescription">Selecciona una parte de la guitarra para verla en detalle.</p>
+			<p class="column is-2 mdescription"><a type="button is-inverted" ng-href="/guitars" ng-class="{active: $route.current.activetab == '/guitars'}"><img src="./data/img/png/Atras.png"> Catálogo</a></p>
+		</div>
+		
+		<img ng-style="style" ng-src={{guitar.map}} class="map guitarId" usemap='#guitar_zonas' class="tab" />
+		<map name="guitar_zonas" id="mapGuitar" ng-init="tab = 1">
+			<area shape="poly" ng-click="tab = 2" coords={{guitar.coords[0].cuerpo}} alt="Cuerpo">
+			<area shape="poly" ng-click="tab = 3" coords={{guitar.coords[1].puente}} alt="Puente">
+			<area shape="poly" ng-click="tab = 4" coords={{guitar.coords[2].electronica}} alt="Electrónica">
+			<area shape="poly" ng-click="tab = 5" coords={{guitar.coords[3].mastil}} alt="Mástil"> 
+			<area shape="poly" ng-click="tab = 6" coords={{guitar.coords[4].pala}} alt="Pala">
+			<area shape="default" ng-click="tab = 1"/>
+		</map>
+		
+		<div ng-show="tab === 1" ng-repeat="guitar in guitar.process[5].general">
+			<div class="text textGuitar">
+				<div class="pdescription">
+					<img ng-src={{guitar.photos}} />
+					<p >{{guitar.description}}</p>
+				</div>
+			</div>
+		</div>
+		<div ng-show="tab === 2" ng-repeat="guitar in guitar.process[0].cuerpo">
+			<div class="text textGuitar">
+				<div class="pdescription">
+					<img ng-src={{guitar.photos}} />
+					<p >{{guitar.description}}</p>
+
+				</div>
+			</div>
+		</div>		
+		<div ng-show="tab === 3" ng-repeat="guitar in guitar.process[1].puente">
+			<div class="text textGuitar">
+				<div class="pdescription">
+					<img ng-src={{guitar.photos}} />
+					<p >{{guitar.description}}</p>
+				</div>
+			</div>
+		</div>		
+		<div ng-show="tab === 4" ng-repeat="guitar in guitar.process[2].electronica">
+			<div class="text textGuitar">
+				<div class="pdescription">
+					<img ng-src={{guitar.photos}} />
+					<p >{{guitar.description}}</p>
+				</div>
+			</div>
+		</div>
+		<div ng-show="tab === 5" ng-repeat="guitar in guitar.process[3].mastil">
+			<div class="text textGuitar">
+				<div class="pdescription">
+					<img ng-src={{guitar.photos}} />
+					<p >{{guitar.description}}</p>
+				</div>
+			</div>
+		</div>
+		<div ng-show="tab === 6" ng-repeat="guitar in guitar.process[4].pala">
+			<div class="text textGuitar">
+				<div class="pdescription">
+					<img ng-src={{guitar.photos}} />
+					<p >{{guitar.description}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

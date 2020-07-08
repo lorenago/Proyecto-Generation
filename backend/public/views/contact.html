@@ -1,0 +1,62 @@
+<div class="viewer">  
+  <div id="my-menus">
+    <header header-section-directive id="menuSection">
+    </header>
+  </div>
+  <a href="/"><img class="logoSection" src="./data/img/nimboTrans.png"></a>
+  <form method="POST" mailto:"contacta@nimboguitarras.com?subject=asunto" enctype
+      ="text/plain" name="contactForm" novalidate class="control is-horizontal form" >
+    <div class="control-label"">
+      <h1>Formulario de contacto:</h1>
+      <div class="control is-grouped">
+        <p class="control is-expanded">
+          <input class="input" type="text" placeholder="Tu nombre" name="name" ng-model="contact.name" ng-model-options="{ updateOn: 'blur' }" required="required" >
+        </p>
+        <span ng-show="contactForm.name.$touched && contactForm.name.$invalid">Debes introducir un nombre.</span>
+        <p class="control is-expanded">
+          <input class="input" type="email" placeholder="Email" name="email" ng-model="contact.email" ng-model-options="{ updateOn: 'blur' }" required="required" >
+        </p>
+        <span ng-show="contactForm.email.$touched && contactForm.name.$invalid">Debes introducir una dirección de correo electrónico válida.</span>
+      </div>
+      <div class="control is-horizontal">
+        <div class="control-label">
+          <label class="label">Asunto</label>
+        </div>
+        <br>
+        <div class="control">
+          <div class="select is-fullwidth">
+            <select>
+              <option>Consulta general</option>
+              <option>Información sobre un producto</option>
+              <option>Dudas y Reclamaciones</option>
+              <option>Consejos de mejora</option>
+            </select>
+          </div>
+        </div>
+    </div>
+    <div class="control is-horizontal">
+      <div class="control-label">
+        <label class="label">Pregunta</label>
+      </div>
+      <br>
+      <div class="control">
+        <textarea class="textarea" type="text" id="text" placeholder="Explícanos cómo podemos ayudarte" name="text" ng-model="contact.text" ng-model-options="{ updateOn: 'blur' }" ></textarea> 
+      </div>
+    </div>
+    <button type="reset" class="button is-inverted" ng-click="reset(contactForm)" value="Limpiar"> Borrar datos</button>
+    <button class="button is-inverted" ng-click="submit()" ng-disabled="contactForm.$invalid">Enviar datos</button>
+    <!-- <div class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-container">
+        <div class="modal-content">
+          <div class="notification">
+            ¡Tu formulario ha sido enviado! 
+            <br>
+            Recibirás una respuesta lo antes posible.
+          </div>
+        </div>
+      </div>
+      <button class="modal-close"></button>
+    </div> -->
+  </form>
+</div>

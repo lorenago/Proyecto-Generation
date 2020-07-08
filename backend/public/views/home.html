@@ -1,0 +1,45 @@
+<div class="viewer">
+	<header header-directive id="menuSection"></header>
+	<div class="searcher">
+		<p class="control has-addons">
+			<input class="input" type="search" results="5" placeholder="Introduce un término de búsqueda" required="required">
+			<button type="submit" class="button">Buscar</button>
+		</p>
+	</div>
+	<div class="columns is-mobile mainPage">
+		<div class="column is-2" id="colIzq">
+			<div ng-repeat="new in news | limitTo : 3">
+				<a class="newsBackground" ng-class={{new.class}} ng-href={{new.href}}>
+					<img ng-src={{new.foto}} />
+				</a>
+			</div>	
+			<!-- <select id="newsResponsive"> 
+			    <option value="" selected="selected">Select</option> 
+			    <option value="/" ng-repeat="new in news" ng-class={{new.class}} ng-href={{new.href}}>{{new.textResponsive}}</option> 
+			</select>  -->
+		</div>
+		<div class="column is-10" id="conCen">
+			<div class="mainText"> 
+				<div class="column" id="nosotros">
+					<p>	
+						<img src="./data/img/nosotros.jpg" />
+						<em>Nimbo Guitarras:</em>
+						<br><br>
+						Nimbo somos Alberto y Lorena, dos apasionados de la música que un día decidieron dar un paso más e introducirse en el mundo de la Luthería.
+						<br>
+						Ni que decir tiene que nos queda mucho camino aún por recorrer, pero el propósito de esta página web es dejar constancia de ello e ir plasmando cada paso realizado en ese largo camino.
+						<br><br>
+						Nuestras principales ideas son: compartir nuestra afición, mostrar nuestro trabajo, ponerlo al alcance de quién lo quiera conseguir y sobretodo, ayudar a otros a restaurar sus propios instrumentos.
+						<br>
+						Por ello, entre las secciones de esta página puedes encontrar información de nuestras guitarras restauradas, así como del proceso detallado que se ha seguido para cada una de ellas, con fotos y alguna que otra sorpresa.
+						<br><br>
+						Aunque llevamos muy poco tiempo en esto, ya tenemos grandes amigos que nos han ayudado y creemos, nos seguirán ayudando. Por ello, queremos desde aquí dar las gracias a Riff Raff luthiers y a Musicopolix Alcorcón por su inestimable ayuda y soporte, siempre abiertos a resolver dudas y a suministrarnos todo cuanto necesitamos.
+						<br>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="column is-1" id="colDer">
+		</div>
+	</div>
+</div>
